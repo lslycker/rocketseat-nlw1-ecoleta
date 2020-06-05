@@ -6,10 +6,8 @@ Tecnologias utilizadas
   - HTML
   - CSS
   - JAVASCRIPT
-  - Uso de Nunjucks para Template Engine
+  - Uso de ***Nunjucks*** para Template Engine
 - Back-end:
   - NODEJS
   - SQLite (Banco de dados)
-
-
-
+  - Uso de ***Nodemon*** para gerenciar o servidor NodeJS
