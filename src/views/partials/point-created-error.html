@@ -1,0 +1,15 @@
+<div id="modal" class="point">
+  <div class="content">
+    <!--<img src="/assets/x.svg" alt="Erro ao realizar cadastro">-->
+    <h1>Erro ao realizar cadastro</h1>
+    <button type="button">Fechar</button>
+  </div>
+</div>
+
+<script>
+  const modal = document.querySelector("#modal");
+  const closeButton = document.querySelector(".content button");
+  closeButton.addEventListener("click", () => {
+    modal.classList.add("hide");
+  });
+</script>
